@@ -7,10 +7,8 @@ while True:
     
     if choice in ("p", "P"):
         print("GAME IS RUNNING")
-        import random
         L = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
         ele = ["@", "&", "@", "!", "~", "$", "*", "%", "!", "^", "$", "&", "*", "~", "%", "^"]
-        random.shuffle(ele)
         score = 0
         
         while True:
